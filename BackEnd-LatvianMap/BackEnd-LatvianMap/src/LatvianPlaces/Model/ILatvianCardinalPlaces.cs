@@ -2,5 +2,5 @@
 
 public interface ILatvianCardinalPlacesRepository
 {
-    public List<Centroids> GetLatvianPlaces();
+    public List<City> GetLatvianPlaces();
 }

@@ -1,6 +1,6 @@
 ﻿namespace BackEnd_LatvianMap.LatvianPlaces.Model;
 
-public class Centroids
+public class City
 {
     public int KODS { get; set; }
     public int TIPS_CD { get; set; }

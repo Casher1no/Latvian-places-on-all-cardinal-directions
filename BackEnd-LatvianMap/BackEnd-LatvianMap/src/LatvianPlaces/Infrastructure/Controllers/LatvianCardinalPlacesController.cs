@@ -12,7 +12,7 @@ namespace BackEnd_LatvianMap.LatvianPlaces.Infrastructure.Controllers
     {
 
         [HttpGet]
-        public Dictionary<string, Centroids> GetCardinalLatvianPlaces()
+        public Dictionary<string, City> GetCardinalLatvianPlaces()
         {
             LatvianCardinalPlacesService service = new LatvianCardinalPlacesService(DataAccessFactory.LatvianCardinalPlacesRepository());
 

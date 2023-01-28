@@ -10,7 +10,7 @@ namespace BackEnd_LatvianMap.LatvianPlaces.Infrastructure.Persistence.csv;
 
 public class CsvLatvianCardinalPlacesRepository : ILatvianCardinalPlacesRepository
 {
-    public List<Centroids> GetLatvianPlaces()
+    public List<City> GetLatvianPlaces()
     {
         string uri = "https://data.gov.lv/dati/dataset/0c5e1a3b-0097-45a9-afa9-7f7262f3f623/resource/1d3cbdf2-ee7d-4743-90c7-97d38824d0bf/download/aw_csv.zip";
 
@@ -22,7 +22,7 @@ public class CsvLatvianCardinalPlacesRepository : ILatvianCardinalPlacesReposito
 
         string tempFile = "Downloads/temp";
 
-        Centroids place = new Centroids();
+        City place = new City();
 
         using (WebClient client = new WebClient())
         {
@@ -52,7 +52,7 @@ public class CsvLatvianCardinalPlacesRepository : ILatvianCardinalPlacesReposito
                 csvReader.Read();
                 csvReader.ReadHeader();
 
-                return csvReader.GetRecords<Centroids>().ToList();
+                return csvReader.GetRecords<City>().ToList();
             }
         }
     }

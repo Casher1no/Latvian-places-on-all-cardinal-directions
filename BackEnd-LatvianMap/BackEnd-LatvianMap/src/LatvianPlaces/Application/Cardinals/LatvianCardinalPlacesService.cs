@@ -11,11 +11,11 @@ public class LatvianCardinalPlacesService
         _latvianCardinalPlacesRepository = latvianCardinalPlacesRepository;
     }
     
-    public Dictionary<string, Centroids> Invoke()
+    public Dictionary<string, City> Invoke()
     {
-        List<Centroids> cardinalPoints = this._latvianCardinalPlacesRepository.GetLatvianPlaces();
-            
-        Dictionary<string, Centroids> cardinalPointList = new Dictionary<string, Centroids>();
+        List<City> cardinalPoints = this._latvianCardinalPlacesRepository.GetLatvianPlaces();
+     
+        Dictionary<string, City> cardinalPointList = new Dictionary<string, City>();
 
         cardinalPointList.Add("furthestNorth", cardinalPoints.MaxBy(c => c.DD_N));
         cardinalPointList.Add("furthestSouth", cardinalPoints.MinBy(c => c.DD_N));
