@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using BackEnd_LatvianMap.LatvianPlaces.Model;
 using CsvHelper;
 using CsvHelper.Configuration;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
