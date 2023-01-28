@@ -26,8 +26,8 @@ export default {
     }).then(response => {
       
       Object.values(response.data).forEach(data => {
-        let maker = leaflet.marker([data.dD_N, data.dD_E]).addTo(map); 
-        maker.bindPopup("Name: " + data.nosaukums);
+        let marker = leaflet.marker([data.dD_N, data.dD_E]).addTo(map); 
+        marker.bindPopup("Name: " + data.nosaukums);
       })
     })
   },
