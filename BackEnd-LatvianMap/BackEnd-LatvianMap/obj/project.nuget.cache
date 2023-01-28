@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "90kzy/ImuqQt3GERdYWQw8An4XmgN3RYtVG1hR7RmeLQiXErTf91p4vhE8/Qc/cJeR6kgTuFbIJjpytyifXhuA==",
+  "dgSpecHash": "yUwq17xMCy/kqX2CILcteGjICaCOq8h6REqmgzydhA7FtEk4L38g/MXY3fSoxYov/dR1Srp4+zzUhVgJdCjaHQ==",
   "success": true,
   "projectFilePath": "E:\\Code Projects\\Praktiskais uzdevums\\BackEnd-LatvianMap\\BackEnd-LatvianMap\\BackEnd-LatvianMap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maikl\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\maikl\\.nuget\\packages\\filehelpers\\3.5.2\\filehelpers.3.5.2.nupkg.sha512",
     "C:\\Users\\maikl\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\maikl\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\maikl\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

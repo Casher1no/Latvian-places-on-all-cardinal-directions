@@ -246,3 +246,4 @@ E:\Code Projects\Praktiskais uzdevums\BackEnd-LatvianMap\BackEnd-LatvianMap\bin\
 E:\Code Projects\Praktiskais uzdevums\BackEnd-LatvianMap\BackEnd-LatvianMap\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\Code Projects\Praktiskais uzdevums\BackEnd-LatvianMap\BackEnd-LatvianMap\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\Code Projects\Praktiskais uzdevums\BackEnd-LatvianMap\BackEnd-LatvianMap\bin\Debug\net6.0\CsvHelper.dll
+E:\Code Projects\Praktiskais uzdevums\BackEnd-LatvianMap\BackEnd-LatvianMap\bin\Debug\net6.0\FileHelpers.dll
