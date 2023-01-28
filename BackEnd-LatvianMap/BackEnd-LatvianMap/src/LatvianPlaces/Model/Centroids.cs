@@ -1,6 +1,4 @@
-﻿using CsvHelper.Configuration.Attributes;
-
-namespace BackEnd_LatvianMap.LatvianPlaces.Model;
+﻿namespace BackEnd_LatvianMap.LatvianPlaces.Model;
 
 public class Centroids
 {

@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="src\LatvianPlaces\Application" />
     <Folder Include="src\LatvianPlaces\Infrastructure\Controllers" />
   </ItemGroup>
 
